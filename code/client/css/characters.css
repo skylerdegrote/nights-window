@@ -102,3 +102,7 @@
     background-color: steelblue;
 }
 
+/* link on character cards */
+a {
+    color: black;
+}
