@@ -1,0 +1,104 @@
+.characterBox {
+    width: 250px;
+    height:300px;
+    padding: 15px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.characterTitle {
+    width: 240px;
+    height: 80px;
+    background-color: whitesmoke;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.characterBody {
+    width: 240px;
+    height: 200px;
+    background-color: whitesmoke;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    border-radius: 25px;
+
+}
+
+.characterFirstName {
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: "papyrus", fantasy;
+
+}
+
+.characterMiddleName {
+    padding: 10px;
+    font-size: 20px;
+    font-family: "papyrus", fantasy;
+    text-align: right;
+    position: relative;
+    float: right;
+    top: -10px;
+}
+
+.characterLastName {
+    padding: 10px;
+    font-size: 20px;
+    font-family: "papyrus", fantasy;
+    text-align: right;
+    position: relative;
+    float: right;
+    top: -30px;
+}
+
+.characterAge {
+    padding: 10px;
+    font-size: 20px;
+    font-family: "papyrus", fantasy;
+    text-align: right;
+    position: relative;
+    float: right;
+    top: -10px;
+    left: 90px;
+}
+
+.characterRole {
+    padding: 10px;
+    font-size: 20px;
+    font-family: "papyrus", fantasy;
+    text-align: right;
+    position: relative;
+    float: right;
+    top: -32px;
+}
+
+.characterLabel {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/* character type */
+
+.mainCharacter {
+    background-color: maroon;
+}
+
+.minorCharacter {
+    background-color: darkgreen;
+}
+
+.majorCharacter {
+    background-color: darkslategrey;
+}
+
+.sideCharacter {
+    background-color: darkgrey;
+}
+
+.extraCharacter {
+    background-color: steelblue;
+}
+
