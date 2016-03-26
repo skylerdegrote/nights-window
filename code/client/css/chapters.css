@@ -1,0 +1,21 @@
+.chapterBox {
+    border: 3px #000 solid;
+    border-radius: 25px;
+    min-height: 200px;
+    margin-bottom: 60px;
+}
+
+.chapterTitle{
+    border-bottom: 3px #000 solid;
+    font-size: 30px;
+    font-family: "papyrus", fantasy;
+    padding-left:50px;
+    position: relative;
+    top: 20px;
+}
+
+.chapterBody {
+    font-size: 16px;
+    font-family: sans-serif,  "minion pro";
+}
+
