@@ -1,8 +1,12 @@
 .chapterBox {
     border: 3px #000 solid;
     border-radius: 25px;
-    min-height: 200px;
+    min-height: 300px;
     margin-bottom: 60px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
 }
 
 .chapterTitle{
@@ -12,6 +16,7 @@
     padding-left:50px;
     position: relative;
     top: 20px;
+    background-color: whitesmoke;
 }
 
 .chapterBody {

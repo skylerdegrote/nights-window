@@ -86,23 +86,35 @@
     background-color: maroon;
 }
 
-.minorCharacter {
-    background-color: darkgreen;
-}
-
 .majorCharacter {
     background-color: darkslategrey;
 }
 
+.minorCharacter {
+    background-color: darkgreen;
+}
+
 .sideCharacter {
-    background-color: darkgrey;
+    background-color: #1d4aa9;
 }
 
 .extraCharacter {
-    background-color: steelblue;
+    background-color: #779db4;
 }
 
 /* link on character cards */
 a {
     color: black;
+}
+
+/* key and legend */
+.block {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+}
+
+.key {
+    margin: auto;
+    width: 80%;
 }
