@@ -82,6 +82,10 @@
 
 /* character type */
 
+#mainCharacter, #majorCharacter, #minorCharacter, #sideCharacter, #extraCharacter {
+    display: inline-block;
+}
+
 .mainCharacter {
     background-color: maroon;
 }

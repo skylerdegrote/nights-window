@@ -5,6 +5,7 @@
     <title></title>
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/characters.css" rel="stylesheet">
+    <script type="text/javascript" src="../js/characters.js"></script>
 </head>
 <body>
 <header>
@@ -25,12 +26,11 @@
 </header>
 <!-- Key and Legend at the top of the page -->
 <div class="key">
-    <div class="block mainCharacter"></div><span class="marginLeft15">Main Character</span>
-    <div class="block majorCharacter"></div><span class="marginLeft15">Major Character</span>
-    <div class="block minorCharacter"></div><span class="marginLeft15">Minor Character</span>
-    <div class="block sideCharacter"></div><span class="marginLeft15">Side Character</span>
-    <div class="block extraCharacter"></div><span class="marginLeft15">Extra Character</span>
-
+    <div id="mainCharacter"> <div class="block mainCharacter"></div><span class="marginLeft15">Main Character</span></div>
+    <div id="majorCharacter"> <div class="block majorCharacter"></div><span class="marginLeft15">Major Character</span></div>
+    <div id="minorCharacter"> <div class="block minorCharacter"></div><span class="marginLeft15">Minor Character</span></div>
+    <div id="sideCharacter"> <div class="block sideCharacter"></div><span class="marginLeft15">Side Character</span></div>
+    <div id="extraCharacter"> <div class="block extraCharacter"></div><span class="marginLeft15">Extra Character</span></div>
 </div>
 
 <div class="main">
@@ -46,7 +46,19 @@
                 <div class="characterFirstName">Mailynn Cooper</div>
             </div>
             <div class="characterBody">
-                <div class="characterLabel">First Name: <span class="characterFirstName">Mailynn</span> </div>
+                <div class="characterLabel">Middle Name: <span class="characterMiddleName">Addison</span> </div>
+                <div class="characterLabel">Last Name: <span class="characterLastName">Cooper</span> </div>
+                <div class="characterLabel">Age: <span class="characterAge">24</span> </div>
+                <div class="characterLabel">Role: <span class="characterRole">Main Character</span> </div>
+            </div>
+        </div>
+    </a>
+    <a href="characters/characters-mailynn.html">
+        <div class="characterBox minorCharacter">
+            <div class="characterTitle">
+                <div class="characterFirstName">Mailynn Cooper</div>
+            </div>
+            <div class="characterBody">
                 <div class="characterLabel">Middle Name: <span class="characterMiddleName">Addison</span> </div>
                 <div class="characterLabel">Last Name: <span class="characterLastName">Cooper</span> </div>
                 <div class="characterLabel">Age: <span class="characterAge">24</span> </div>
@@ -55,74 +67,6 @@
         </div>
     </a>
 
-    <a href="characters/characters-colton.html">
-        <div class="characterBox majorCharacter">
-            <div class="characterTitle">
-                <div class="characterFirstName">Colton Cooper</div>
-            </div>
-            <div class="characterBody">
-                <div class="characterLabel">Middle Name: <span class="characterMiddleName">Douglas</span> </div>
-                <div class="characterLabel">Last Name: <span class="characterLastName">Cooper</span> </div>
-                <div class="characterLabel">Age: <span class="characterAge">14</span> </div>
-                <div class="characterLabel">Role: <span class="characterRole">Minor Character</span> </div>
-            </div>
-        </div>
-    </a>
-
-    <a href="characters/characters-martin.html">
-        <div class="characterBox minorCharacter">
-            <div class="characterTitle">
-                <div class="characterFirstName">Martin Cooper</div>
-            </div>
-            <div class="characterBody">
-                <div class="characterLabel">Middle Name: <span class="characterMiddleName">Adam</span> </div>
-                <div class="characterLabel">Last Name: <span class="characterLastName">Cooper</span> </div>
-                <div class="characterLabel">Age: <span class="characterAge">14</span> </div>
-                <div class="characterLabel">Role: <span class="characterRole">Minor Character</span> </div>
-            </div>
-        </div>
-    </a>
-
-    <a href="characters/characters-martin.html">
-        <div class="characterBox sideCharacter">
-            <div class="characterTitle">
-                <div class="characterFirstName">Martin Cooper</div>
-            </div>
-            <div class="characterBody">
-                <div class="characterLabel">Middle Name: <span class="characterMiddleName">Adam</span> </div>
-                <div class="characterLabel">Last Name: <span class="characterLastName">Cooper</span> </div>
-                <div class="characterLabel">Age: <span class="characterAge">14</span> </div>
-                <div class="characterLabel">Role: <span class="characterRole">Minor Character</span> </div>
-            </div>
-        </div>
-    </a>
-
-    <a href="characters/characters-martin.html">
-        <div class="characterBox extraCharacter">
-            <div class="characterTitle">
-                <div class="characterFirstName">Martin Cooper</div>
-            </div>
-            <div class="characterBody">
-                <div class="characterLabel">Middle Name: <span class="characterMiddleName">Adam</span> </div>
-                <div class="characterLabel">Last Name: <span class="characterLastName">Cooper</span> </div>
-                <div class="characterLabel">Age: <span class="characterAge">14</span> </div>
-                <div class="characterLabel">Role: <span class="characterRole">Minor Character</span> </div>
-            </div>
-        </div>
-    </a>
-    <a href="characters/characters-martin.html">
-        <div class="characterBox extraCharacter">
-            <div class="characterTitle">
-                <div class="characterFirstName">Martin Cooper</div>
-            </div>
-            <div class="characterBody">
-                <div class="characterLabel">Middle Name: <span class="characterMiddleName">Adam</span> </div>
-                <div class="characterLabel">Last Name: <span class="characterLastName">Cooper</span> </div>
-                <div class="characterLabel">Age: <span class="characterAge">14</span> </div>
-                <div class="characterLabel">Role: <span class="characterRole">Minor Character</span> </div>
-            </div>
-        </div>
-    </a>
 
 
 </div>

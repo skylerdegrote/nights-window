@@ -1,0 +1,64 @@
+/* NAVIGATION */
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    background-color: #333333;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+nav li a {
+
+}
+
+nav li:first-child a {
+    margin-top: 40px;
+    text-align: center;
+}
+
+nav li a:hover {
+
+}
+
+
+nav li a:active {
+
+}
+
+
+
+nav .active {
+
+}
+
+
+nav li.small a {
+
+}
+nav li.small a:hover {
+
+}
+
+nav li h3 {
+
+}
+
+nav li.small {
+
+}
+
+nav li.small:hover {
+
+}
+nav li.small:active {
+}
+
+nav.topMargin {
+}
