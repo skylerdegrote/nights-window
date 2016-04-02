@@ -68,42 +68,18 @@ $( document ).ready(function() {
     $("#tagsReset").click(function(){
         $(".active").removeClass("active");
         $(".hidden").toggle().removeClass("hidden").addClass("visible");
+        $("#blogHomeLink").addClass("active");
     });
     $("#datesReset").click(function(){
         $(".active").removeClass("active");
         $(".hidden").toggle().removeClass("hidden").addClass("visible");
+        $("#blogHomeLink").addClass("active");
     });
 
 
 
 
 
-    // TAGS ON POSTS
-
-    $("#character").click(function(){
-        $(".visible").toggle().removeClass("visible").addClass("hidden");
-        $(".character").toggle().removeClass("hidden").addClass("visible");
-    });
-    $("#chapter").click(function(){
-        $(".visible").toggle().removeClass("visible").addClass("hidden");
-        $(".chapter").toggle().removeClass("hidden").addClass("visible");
-    });
-    $("#scene").click(function(){
-        $(".visible").toggle().removeClass("visible").addClass("hidden");
-        $(".scene").toggle().removeClass("hidden").addClass("visible");
-    });
-    $("#quote").click(function(){
-        $(".visible").toggle().removeClass("visible").addClass("hidden");
-        $(".quote").toggle().removeClass("hidden").addClass("visible");
-    });
-    $("#idea").click(function(){
-        $(".visible").toggle().removeClass("visible").addClass("hidden");
-        $(".idea").toggle().removeClass("hidden").addClass("visible");
-    });
-    $("#feedback").click(function(){
-        $(".visible").toggle().removeClass("visible").addClass("hidden");
-        $(".feedback").toggle().removeClass("hidden").addClass("visible");
-    });
 });
 
 

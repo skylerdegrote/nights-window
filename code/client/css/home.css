@@ -1,0 +1,26 @@
+section {
+    width: 500px;
+    min-height: 200px;
+    padding: 10px;
+    margin:5px;
+    display: inline;
+}
+
+.twitterFeed {
+    margin-top:50px;
+    float: left;
+    width: 45%;
+}
+
+.pinterestBoard {
+    margin-top:50px;
+    margin-left: 50px;
+    display: inline-block;
+    clear: right;
+    width:45%;
+}
+
+.social {
+    width: 1000px;
+    margin: auto;
+}
