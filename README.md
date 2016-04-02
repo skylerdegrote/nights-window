@@ -6,4 +6,9 @@ I'm also coding the blog and website for it so I can make it my own creation.
 
 Please follow and like my pages!
 
-[@nightswindow](https://twitter.com/nightswindow) and [/nightswindow](https://www.facebook.com/nightswindow/)
+[Twitter](https://twitter.com/nightswindow) and [Facebook](https://www.facebook.com/nightswindow/) and
+[Pinterest](https://www.pinterest.com/nightswindow2/)
+
+Right now I have the following image representing me as my profile image on these sites.
+
+![Night's Window Profile Picture - Creepy woman in Mirror](/code/client/images/creepy-mirror.jpg)
