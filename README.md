@@ -3,7 +3,7 @@
 #### My third book
 ######(not a part of the Soul Collection)
 ######This will probably turn into another series, but will be written live with ideas from everyone whom chooses to
- participate. Please see disclaimer at the bottom of the site and blog.
+######participate. Please see disclaimer at the bottom of the site and blog.
 I'm writing my third book live so the world can contribute if they would like to. While doing this,
 I'm also coding the blog and website for it so I can make it my own creation.
 
