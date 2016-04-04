@@ -1,5 +1,5 @@
 .chapterBox {
-    border: 3px #000 solid;
+    border: 3px #333 solid;
     border-radius: 25px;
     min-height: 200px;
     margin-bottom: 60px;
@@ -9,7 +9,7 @@
 }
 
 .chapterTitle{
-    border-bottom: 3px #000 solid;
+    border-bottom: 3px #333 solid;
     font-size: 30px;
     font-family: "papyrus", fantasy;
     padding-left:50px;

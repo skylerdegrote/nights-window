@@ -1,0 +1,40 @@
+.dottedBox {
+    border: dashed #4CAF50 3px;
+    padding: 15px;
+}
+
+.sceneBox {
+    border: 3px #333 solid;
+    border-radius: 25px;
+    min-height: 200px;
+    margin-bottom: 60px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sceneTitle{
+    border-bottom: 3px #333 solid;
+    font-size: 30px;
+    font-family: "papyrus", fantasy;
+    padding-left:50px;
+    position: relative;
+    top: 20px;
+}
+
+.sceneBody {
+    font-size: 16px;
+    font-family: sans-serif,  "minion pro";
+    padding: 60px;
+}
+
+.main h3 {
+    margin-bottom:50px;
+}
+
+.smallText {
+    font-size: 16px;
+    position: relative;
+    top: 10px;
+    margin-right: 50px;
+}
